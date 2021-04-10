@@ -1,0 +1,138 @@
+@font-face {
+    src: url(resources/urw-din.ttf);
+    font-family: urlfont;
+    src: url(resources/cheesy.ttf);
+    font-family: cheesy;
+}
+
+body {
+    /* text-align: center; */
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Merienda', cursive;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+}
+
+li {
+    font-family: 'urlfont', cursive;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+img {
+    display: block;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5%;
+    max-width: auto;
+}
+
+/*                                      All Classes                                         */
+.mainPage {
+    background-color: white;
+    padding: 4rem;
+    margin-top: 1em;
+    margin-bottom: 26em;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 1%;
+}
+
+.overview {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.ingrediants {
+    padding: 2rem;
+}
+
+.recipe {
+    padding: 2rem;
+}
+
+.recipeImage{
+    min-height: 2rem;
+    min-width: 5rem;
+}
+.footer {
+    text-align: center;
+    background-color: black;
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-left: 10em;
+    margin-right: 10em;
+    color: cyan;
+    border-radius: 3.2%;
+    padding: 2rem;
+}
+
+.iconContainer {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 2rem;
+}
+
+.footImg {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.footerTitle{
+    font-size: 2em;
+    text-align: center;
+}
+
+.copyright {
+    color: cyan;
+    font-family: "Lobster", serif;
+}
+ /*                                     All IDs                                             */
+
+#mainHeading {
+    font-size: 4rem;
+    text-align: center;
+    color: #FBDE44FF;
+}
+
+#mostMainHeading {
+    font-size: 10rem;
+    color: #FFA600;
+    font-family: "cheesy", cursive;
+}
+
+#firstHr {
+    transform:rotate(2deg);
+    display: block;
+    border:none;
+    height:1px;
+    background:black;
+    width: 44%;
+}
+
+#secondHr {
+    transform:rotate(-2deg);
+    display: block;
+    border:none;
+    height:1px;
+    background:black;
+    width: 44%;
+}
